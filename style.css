@@ -96,10 +96,30 @@ a {
 .box-two {
     background-color: #b7babe;
     display: flex;
-    min-height: 50px;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px;
 }
-
+.box-two > div {
+    width: 900px;
+    margin: 0;
+}
+#author {
+    font-size: 24px;
+    text-align: right;
+    padding-right: 100px;
+    font-weight: 900;
+    margin: 0;
+    color: black;
+}
+#sentence {
+    font-size: 36px;
+    text-align: left;
+    margin: 0;
+    color: #494d53;
+}
 .contener {
     display: flex;
     flex-direction: column;
@@ -113,14 +133,7 @@ a {
     border: 2px solid #3882f6;
 }
 
-#author {
-    font-weight: 300;
-    color: black;
-}
-#sentence {
-    font-size: 36px;
-    color: #494d53;
-}
+
 
 .cta {
     background-color: #3882f6;
