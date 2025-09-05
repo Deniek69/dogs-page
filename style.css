@@ -83,7 +83,7 @@ ul > a:hover {
     width: 400px;
     height: auto;
 }
-.box-one, .box-three {
+.box-one {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -91,11 +91,15 @@ ul > a:hover {
     align-items: center;
     margin: 10px 200px 20px 200px;
 }
-.box-one > div {
+.box-one > h1 {
+    margin: 30px 0 30px;
+    font-size: 36px;
+    font-weight: 300;
+}
+.box-one > .cont {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+    gap: 50px;
+    margin: 0 0 30px;
 
 }
 .contener > p {
@@ -142,39 +146,56 @@ ul > a:hover {
     border: 2px solid #3882f6;
 }
 .box-three {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 200px 20px 200px;
     padding: 100px;
 }
 
 .cta {
     background-color: #3882f6;
     width: 800px;
-    height: auto;
     border-radius: 10px;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 50px 100px;
 }
 .cta > text {
     display: flex;
     flex-direction: column;
 }
-.text > h4, p {
+.text > h4 {
     margin: 0;
 }
+.text > p {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
 .cta > button {
+    display: flex;
+    white-space: nowrap;
     background-color: #3882f6;
     color: white;
     border: 2px solid white;
     width: 100px;
+    height: auto;
     border-radius: 10px;
     padding: 8px 24px;
+}
+.cta > button:hover {
+    background-color: #74a6f6;
 }
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0px;
+    padding: 10px 0px;
 }
 .footer > p {
     font-size: 18px;
