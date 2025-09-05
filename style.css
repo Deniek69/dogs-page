@@ -59,9 +59,9 @@ a {
     color: #e5e7eb;
 }
 .left > button {
-    width: 150px;
     background-color: #3882f6;
     color: white;
+    width: 100px;
     border-radius: 10px;
     padding: 8px 24px;
 }
@@ -132,17 +132,42 @@ a {
     border-radius: 5%;
     border: 2px solid #3882f6;
 }
-
-
+.box-three {
+    padding: 100px;
+}
 
 .cta {
     background-color: #3882f6;
-    width: 1000px;
-    height: 200px;
+    width: 800px;
+    height: auto;
     border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
 }
-
+.cta > text {
+    display: flex;
+    flex-direction: column;
+}
+.text > h4, p {
+    margin: 0;
+}
+.cta > button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    width: 100px;
+    border-radius: 10px;
+    padding: 8px 24px;
+}
 .footer {
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0px;
+}
+.footer > p {
+    font-size: 18px;
+    color: rgb(222, 219, 219);
 }
