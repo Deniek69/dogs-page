@@ -77,9 +77,22 @@ a {
 .box-one, .box-three {
     background-color: white;
     display: flex;
-    min-height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 200px 20px 200px;
 }
+.box-one > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 
+}
+.contener > p {
+    width: 150px;
+    text-align: center;
+}
 .box-two {
     background-color: #b7babe;
     display: flex;
